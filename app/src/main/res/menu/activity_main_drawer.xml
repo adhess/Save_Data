@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_addDirectory"
+            android:icon="@drawable/add_folder"
+            android:title="Ajouter un dossier" />
+        <item
+            android:id="@+id/nav_showAllFiles"
+            android:icon="@drawable/cabinet_icon"
+            android:title="Afficher tous les fichiers" />
+        <item
+            android:id="@+id/nav_showAllDirectories"
+            android:icon="@drawable/folder_50_512"
+            android:title="Afficher tous les dossiers" />
+        <item
+            android:id="@+id/nav_deleteAllFiles"
+            android:icon="@drawable/document_delete"
+            android:title="Supp tous les fichiers" />
+        <item
+            android:id="@+id/nav_deleteAllDirectories"
+            android:icon="@drawable/folder_delete"
+            android:title="Supp tous les dossiers" />
+    </group>
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/download_server"
+                android:icon="@drawable/icon_downloads"
+                android:title="Télécharger serveur" />
+            <item
+                android:id="@+id/send_feedback"
+                android:icon="@drawable/feedback"
+                android:title="retour d'information" />
+        </menu>
+    </item>
+</menu>
